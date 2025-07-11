@@ -14,6 +14,8 @@ class TicTacToe:
       print('| ' + ' | '.join(row) + ' | ')
 
 
-#Logic of the game 
+#Logic of the game - thinking ahead, I need to be able to represent what are the available moves that I or the computer can take on any given situtaion 
+
+
 
       
