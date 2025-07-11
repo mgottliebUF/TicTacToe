@@ -26,3 +26,4 @@ def available_moves(self):
     if spot == ' ':
       moves.append(i)
       
+ 
