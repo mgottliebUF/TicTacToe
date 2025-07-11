@@ -16,4 +16,9 @@ class RandomComputerPlayer(Player):
       pass 
 
 class HumanPlayer(Player):
-  def
+  def __init__(self, letter): 
+    super().__init__(letter)
+
+  def get_move(self, game): 
+    pass 
+  
