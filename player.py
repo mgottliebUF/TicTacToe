@@ -21,5 +21,10 @@ class HumanPlayer(Player):
     super().__init__(letter)
 
   def get_move(self, game): 
-    pass 
+    valid_square = False
+    val = None
+    while not valid_square: 
+      square = input(self.letter + '\'s turn. Input move(0-9):')
+      try: #implementing checks to ensure user isn't violating rules of the game.
+        val = int(square)
   
