@@ -27,4 +27,6 @@ class HumanPlayer(Player):
       square = input(self.letter + '\'s turn. Input move(0-9):')
       try: #implementing checks to ensure user isn't violating rules of the game.
         val = int(square)
+        if val not in game.available_moves(): 
+          raise ValueError 
   
